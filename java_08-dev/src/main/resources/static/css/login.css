@@ -1,0 +1,431 @@
+.main-login .card-header {
+    background-color: var(--second-color);
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-login-cover {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.main-login-cover > img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.main-login .carts {
+    position: relative;
+    z-index: 10;
+}
+
+.main-login .carts {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-login .col-form-label {
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+}
+
+.main-login .col-form-label span {
+    font-weight: 700;
+    color: #f10000;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.form-control  {
+    border: 1px solid #7d7d7d;
+}
+.form-control:focus  {
+    outline: none !important;
+}
+
+.form-check-input {
+    border: 1px solid #7d7d7d;
+}
+
+.main-login .form-check-label {
+    font-size: 14px;
+    color: #000000;
+}
+
+.main-login .btn-link {
+    color: #006fad;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.main-login .btn-link:hover {
+    color: #000000;
+}
+
+.main-login .btn-offset-children  {
+    display: flex;
+    margin-left: 0;
+    justify-content: space-around;
+}
+
+.main-login  .btn-primary {
+    font-weight: 500;
+    width: 180px;
+    background: #5488c7;
+}
+
+.check-offset-parent {
+    width: 100%;
+    margin-left: 0;
+}
+
+.main-login .link-child {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.main-login .check-offset-parent .form-check {
+    margin-bottom: 0;
+}
+
+/* register  */
+.main-register .card-header {
+    background-color: var(--second-color);
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-register .card-body {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px 30px;
+}
+
+.main-register::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-register .carts {
+    position: relative;
+    z-index: 10;
+}
+
+.main-register .carts {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-register .col-form-label {
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+
+}
+
+.main-register .col-form-label span {
+    font-weight: 700;
+    color: #f10000;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.main-register .form-control  {
+    border: 1px solid #b8b8b8;
+}
+
+.main-register .form-check-input {
+    border: 1px solid #b8b8b8;
+}
+
+.main-register .form-check-label {
+    font-size: 13px;
+    color: #000000;
+}
+
+.main-register .btn-link {
+    color: #006fad;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.main-register .btn-link:hover {
+    color: #000000;
+}
+
+.btn-offset-children {
+    margin-left: 0;
+}
+
+.main-register .btn-links  {
+    display: flex;
+    justify-content: center;
+}
+
+.main-register .btn-primary-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.main-register .link-child {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.main-register  .btn-primary {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+}
+
+/* reset password  */
+.main-reset-password .card-header {
+    background-color: var(--second-color);
+    color: #000000;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-reset-password .card-body {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px 30px;
+}
+
+.main-reset-password::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-reset-password .carts {
+    position: relative;
+    z-index: 10;
+}
+
+.main-reset-password .carts {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-reset-password .col-form-label {
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+}
+
+.main-reset-password .col-form-label span {
+    font-weight: 700;
+    color: #f10000;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.main-reset-password .form-control  {
+    border: 1px solid #7d7d7d;
+}
+
+.main-reset-password .form-check-input {
+    border: 1px solid #7d7d7d;
+}
+
+.main-reset-password .form-check-label {
+    font-size: 13px;
+    color: #000000;
+}
+
+.main-reset-password .btn-link {
+    color: #006fad;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    margin-right: 40px;
+}
+
+.main-reset-password .btn-link:hover {
+    color: #f32929;
+}
+
+.main-reset-password .btn-offset-children  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50%;
+}
+
+.main-reset-password  .btn-primary {
+    font-weight: 700;
+}
+
+.main-reset-password .alert-success {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.main-reset-password .btn-primary-parent {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+/* reset  */
+.main-reset .card-header {
+    background-color: var(--second-color);
+    color: #000000;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-reset .card-body {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 50px 30px;
+}
+
+.main-reset::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-reset .carts {
+    position: relative;
+    z-index: 10;
+}
+
+.main-reset .carts {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-reset .col-form-label {
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+
+}
+
+.main-reset .col-form-label span {
+    font-weight: 700;
+    color: #f10000;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.main-reset .form-control  {
+    border: 1px solid #7d7d7d;
+}
+
+.main-reset .form-check-input {
+    border: 1px solid #7d7d7d;
+}
+
+.main-reset .form-check-label {
+    font-size: 13px;
+    color: #000000;
+}
+
+.main-reset .btn-link {
+    color: #006fad;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    margin-right: 40px;
+}
+
+.main-reset .btn-link:hover {
+    color: #f32929;
+}
+
+.main-reset .btn-offset-children  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50%;
+}
+
+.main-reset  .btn-primary {
+    font-weight: 700;
+}
+
+
+.main-reset .alert-success {
+    text-align: center;
+    padding-top: -50px;
+}
+
+.main-reset .btn-primary-parent {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.text-md-end {
+    text-align: unset !important;
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #aeaeae !important;
+    height: 42px;
+    padding: 8px 16px !important;
+}
+
+.form-control {
+    line-height: 42px;
+}
+
+.input-group-text {
+    height: 42px;
+    width: 42px;
+    background: #5488c7 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+    border: 1px solid #86b7fe !important;
+}
+
+@media screen and (max-width: 576px)  {
+    .btn-primary {
+        width: 100% !important;
+    }
+}

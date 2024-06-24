@@ -1,0 +1,29 @@
+Khi bắt đầu 1 task
+
+Bước 1: Tạo nhánh theo label và ID của task: git checkout -b feat/java08-6 dev
+feat/java08-6 là tên nhánh
+Trong đó:
+    feat: Label của task
+    6: ID của task
+Pull code mới nhất từ nhánh DEV về: git pull origin dev
+Chuyển label -> Doing
+
+Bước 2:
+Làm task.....
+
+Bước 3: Sau khi làm xong
+Review lại code
+
+Yêu cầu:
+    Tên class đặt tên theo kiểu: PascalCase
+    Tên biến và tên hàm đặt theo kiểu: camelCase
+    Tên class và id của thẻ HTML đặt theo kiêu: kebab-case
+    Tên trường trong CSDL đặt theo kiểu: snake_case
+
+Kiểm tra code không bị lỗi mới được đẩy lên:
+
+Bước 4: Push code lên nhánh vừa tạo ban đầu:
+
+Bước 5: Tạo merge request vào nhánh DEV
+Sau đó chuyển label từ Doing -> Dev_Done
+(Nếu test kỹ rồi thì chuyển từ Doing qua luôn Test_Done)
